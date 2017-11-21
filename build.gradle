@@ -1,0 +1,18 @@
+group = 'com.staylward'
+version = '0.0.1'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+}
+
+
+dependencies {
+	compile group: 'org.projectlombok', name: 'lombok', version: '1.16.8'
+	testCompile 'junit:junit:4.12'
+	testCompile 'org.assertj:assertj-core:3.8.0'
+}
