@@ -33,3 +33,7 @@ build
 *.iml
 *.ipr
 *.iws
+
+# OS Files
+.DS_Store
+
