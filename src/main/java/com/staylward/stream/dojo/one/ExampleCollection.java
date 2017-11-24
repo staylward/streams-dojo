@@ -1,14 +1,11 @@
 package com.staylward.stream.dojo.one;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class ExampleCollection {
     public static List<String> createListOfStrings(String[] strings) {
-        List<String> returnList = new ArrayList<>();
-        for (int i=0; i<strings.length; i++) {
-            returnList.add(strings[i]);
-        }
-        return returnList;
+        return Arrays.stream(strings).collect(Collectors.toList());
     }
 }
