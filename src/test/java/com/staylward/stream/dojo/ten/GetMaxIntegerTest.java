@@ -1,13 +1,14 @@
-package com.staylward.stream.dojo.nine;
+package com.staylward.stream.dojo.ten;
 
 import org.junit.Test;
 
 import java.util.List;
 
+import static com.staylward.stream.dojo.ten.GetMaxInteger.getMaximumBy;
 import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class FilterAndAverageTest {
+public class GetMaxIntegerTest {
     @Test
     public void shouldGetAverageAgeOfPeopleWithBrownHair() throws Exception {
         // Given
@@ -21,9 +22,9 @@ public class FilterAndAverageTest {
         );
 
         // When
-        double average = FilterAndAverage.getAverageBy(people, "Brown");
+        Integer maximum = getMaximumBy(people, "Brown");
 
         // Then
-        assertThat(average).isEqualTo((5 + 6 + 7 + 10)/4);
+        assertThat(maximum).isEqualTo(10);
     }
 }
