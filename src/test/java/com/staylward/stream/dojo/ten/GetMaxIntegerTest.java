@@ -10,7 +10,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class GetMaxIntegerTest {
     @Test
-    public void shouldGetAverageAgeOfPeopleWithBrownHair() throws Exception {
+    public void shouldGetAverageAgeOfPeopleWithBrownHair() {
         // Given
         List<Person> people = asList(
                 new Person(5, "Brown"),

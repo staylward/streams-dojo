@@ -9,7 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class ExampleDistinctTest {
     @Test
-    public void shouldOnlyReturnUniqueNumbers() throws Exception {
+    public void shouldOnlyReturnUniqueNumbers() {
         // Given
         List<Integer> numbers = asList(1, 1, 2, 3, 4, 5, 1, 5, 6, 6, 1);
 

@@ -11,7 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class ExampleReduceTest {
     @Test
-    public void shouldReturnTheTotalOfTheListOfInts() throws Exception {
+    public void shouldReturnTheTotalOfTheListOfInts() {
         // Given
         List<Integer> numbers = asList(1, 2, 3, 4, 5, 6);
 
@@ -24,7 +24,7 @@ public class ExampleReduceTest {
     }
 
     @Test
-    public void shouldReturnOptionalEmptyForEmptyList() throws Exception {
+    public void shouldReturnOptionalEmptyForEmptyList() {
         // Given
         List<Integer> numbers = emptyList();
 

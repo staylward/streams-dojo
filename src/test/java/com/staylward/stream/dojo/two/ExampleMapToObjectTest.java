@@ -1,6 +1,5 @@
 package com.staylward.stream.dojo.two;
 
-import com.staylward.stream.dojo.one.ExampleCollection;
 import org.junit.Test;
 
 import java.util.List;
@@ -10,7 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class ExampleMapToObjectTest {
     @Test
-    public void shouldReturnListOfIntsAsListOfStrings() throws Exception {
+    public void shouldReturnListOfIntsAsListOfStrings() {
         // Given
         List<Integer> ints = asList(1, 2, 3, 4, 5);
 

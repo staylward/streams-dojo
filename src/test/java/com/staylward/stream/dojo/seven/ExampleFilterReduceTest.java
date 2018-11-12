@@ -9,7 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class ExampleFilterReduceTest {
     @Test
-    public void shouldReturnTheTotalOfTheListOfEvenInts() throws Exception {
+    public void shouldReturnTheTotalOfTheListOfEvenInts() {
         // Given
         List<Integer> numbers = asList(1, 2, 3, 4, 5, 6);
 
@@ -21,7 +21,7 @@ public class ExampleFilterReduceTest {
     }
 
     @Test
-    public void shouldReturnTheTotalOfTheListOfOddInts() throws Exception {
+    public void shouldReturnTheTotalOfTheListOfOddInts() {
         // Given
         List<Integer> numbers = asList(1, 2, 3, 4, 5, 6);
 

@@ -15,7 +15,7 @@ public class ExampleParallelStreamTest {
     private final static long maximumTestDuration = 2000L;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         testItems = asList(
                 new Item("Thing1", new BigDecimal("2.5"), 15),
                 new Item("Thing2", new BigDecimal("3.5"), 25),

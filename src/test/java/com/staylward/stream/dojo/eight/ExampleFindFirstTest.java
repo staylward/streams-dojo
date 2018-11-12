@@ -11,7 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class ExampleFindFirstTest {
     @Test
-    public void shouldReturnBookThatContainsSpecialCharacters() throws Exception {
+    public void shouldReturnBookThatContainsSpecialCharacters() {
         // Given
         List<Book> normalBooks = asList(
                 new Book("Test", 10),

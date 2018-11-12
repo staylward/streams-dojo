@@ -1,6 +1,5 @@
 package com.staylward.stream.dojo.three;
 
-import com.staylward.stream.dojo.two.ExampleMapToObject;
 import org.junit.Test;
 
 import java.util.List;
@@ -10,7 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class ExampleFilterTest {
     @Test
-    public void shouldReturnAListThatOnlyContainsEvenNumbers() throws Exception {
+    public void shouldReturnAListThatOnlyContainsEvenNumbers() {
         // Given
         List<Integer> ints = asList(1, 2, 3, 4, 5, 6);
 
