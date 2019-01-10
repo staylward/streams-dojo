@@ -8,7 +8,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class ExampleCollectionTest {
     @Test
-    public void shouldReturnListOfStringsFromTheArray() throws Exception {
+    public void shouldReturnListOfStringsFromTheArray() {
         // Given
         String[] strings = {"1", "2", "3", "4", "5"};
 
